@@ -34,7 +34,7 @@ function App() {
         <button className="btn-guess-number" type="submit">Guess number</button>
       </form>
       <button className="btn-start-game" onClick={startGame} >Start Game</button>
-      <p>{message} </p>
+      <h4>{message} </h4>
     </div>
   );
 
